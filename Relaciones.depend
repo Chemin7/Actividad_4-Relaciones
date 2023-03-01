@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1677633367 source:c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\main.cpp
+	<iostream>
+	<string>
+	"personas.h"
+	"persona.h"
+	"libro.h"
+
+1677616818 source:c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\src\persona.cpp
+	"persona.h"
+	<iostream>
+	"libro.h"
+
+1677616480 c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\include\persona.h
+	"libro.h"
+	"string"
+	<vector>
+
+1677615825 c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\include\libro.h
+	<string>
+
+1677616913 source:c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\src\libro.cpp
+	"libro.h"
+	<iostream>
+
+1677614230 source:c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\src\profesor.cpp
+	"profesor.h"
+
+1677616282 c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\include\profesor.h
+
+1677614200 source:c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\src\facultad.cpp
+	"facultad.h"
+
+1677616293 c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\include\facultad.h
+	"profesor.h"
+
+1677617668 c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\include\personas.h
+	"persona.h"
+	<vector>
+
+1677617563 source:c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\src\personas.cpp
+	"personas.h"
+	<iostream>
+
