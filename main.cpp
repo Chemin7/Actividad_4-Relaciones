@@ -4,6 +4,8 @@
 #include "persona.h"
 #include "libro.h"
 
+#include <windows.h>
+
 using namespace std;
 
     Personas people;
@@ -58,7 +60,6 @@ void Opcion1(){
     }while(opc != 4);
 }
 
-
 int main()
 {
     int opc;
@@ -74,6 +75,7 @@ int main()
         Opcion1();
         break;
     }
+
 
     return 0;
 }

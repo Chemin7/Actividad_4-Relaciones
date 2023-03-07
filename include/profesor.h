@@ -7,7 +7,7 @@ class Profesor
     public:
         Profesor();
         ~Profesor();
-
+        void mensaje();
 
 };
 

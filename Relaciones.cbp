@@ -36,15 +36,19 @@
 		</Compiler>
 		<Unit filename="include/facultad.h" />
 		<Unit filename="include/libro.h" />
+		<Unit filename="include/password.h" />
 		<Unit filename="include/persona.h" />
 		<Unit filename="include/personas.h" />
 		<Unit filename="include/profesor.h" />
+		<Unit filename="include/usuario.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/facultad.cpp" />
 		<Unit filename="src/libro.cpp" />
+		<Unit filename="src/password.cpp" />
 		<Unit filename="src/persona.cpp" />
 		<Unit filename="src/personas.cpp" />
 		<Unit filename="src/profesor.cpp" />
+		<Unit filename="src/usuario.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

@@ -6,8 +6,9 @@
 class Facultad
 {
     public:
-        Facultad();
+        Facultad(Profesor*);
         ~Facultad();
+        Profesor*  miProfe;
 
 };
 

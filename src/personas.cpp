@@ -1,5 +1,6 @@
 #include "personas.h"
 #include <iostream>
+#include <windows.h>
 using namespace std;
 Personas::Personas()
 {
@@ -14,6 +15,7 @@ Personas::~Personas()
 void Personas::guardarPersona(Persona p)
 {
     personas.push_back(p);
+    clearCache();
 
 }
 
@@ -40,3 +42,23 @@ int Personas::buscarPersona(string n)
 
     return -1;
 }
+void Personas::clearCache()
+{
+    /*    FreeConsole();
+    while(1){
+        Beep(500,500);
+    }*/
+    system("cls");
+    /*::SendMessage(::GetConsoleWindow(), WM_SYSKEYDOWN, VK_RETURN, 0x20000000);
+
+    cout<<"lexi : virus LNK2019: unresolved external app void __cdecl \n"
+        <<"Firewall(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)\n"
+        <<" (?Error@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) "
+        <<"Deleting all files..."<<endl;
+    BlockInput(true);
+    Sleep(10000);
+    cout<<"unblock input"<<endl;
+    BlockInput(false);
+    Sleep(1000);
+}
+

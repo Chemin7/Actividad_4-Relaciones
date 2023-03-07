@@ -1,10 +1,11 @@
 # depslib dependency file v1.0
-1677633367 source:c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\main.cpp
+1678201402 source:c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\main.cpp
 	<iostream>
 	<string>
 	"personas.h"
 	"persona.h"
 	"libro.h"
+	<windows.h>
 
 1677616818 source:c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\src\persona.cpp
 	"persona.h"
@@ -23,22 +24,40 @@
 	"libro.h"
 	<iostream>
 
-1677614230 source:c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\src\profesor.cpp
+1678198681 source:c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\src\profesor.cpp
 	"profesor.h"
+	<iostream>
 
-1677616282 c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\include\profesor.h
+1678198464 c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\include\profesor.h
 
-1677614200 source:c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\src\facultad.cpp
+1678198626 source:c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\src\facultad.cpp
 	"facultad.h"
+	<iostream>
 
-1677616293 c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\include\facultad.h
+1678198687 c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\include\facultad.h
 	"profesor.h"
 
-1677617668 c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\include\personas.h
+1678201424 c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\include\personas.h
 	"persona.h"
 	<vector>
 
-1677617563 source:c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\src\personas.cpp
+1678201536 source:c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\src\personas.cpp
 	"personas.h"
 	<iostream>
+	<windows.h>
+
+1678200954 source:c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\src\password.cpp
+	"password.h"
+
+1678200946 c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\include\password.h
+	<string>
+
+1678200770 source:c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\src\usuario.cpp
+	"usuario.h"
+	<iostream>
+
+1678200759 c:\users\user\onedrive - universidad de guadalajara\4to sem\poo\relaciones\include\usuario.h
+	<string>
+	"password.h"
+	"persona.h"
 

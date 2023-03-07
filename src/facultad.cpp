@@ -1,11 +1,14 @@
 #include "facultad.h"
-
-Facultad::Facultad()
+#include <iostream>
+using namespace std;
+Facultad::Facultad(Profesor* p) :miProfe(p)
 {
-    //ctor
+
 }
 
 Facultad::~Facultad()
 {
     //dtor
 }
+
+
