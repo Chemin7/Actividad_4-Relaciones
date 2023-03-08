@@ -14,7 +14,7 @@ class Personas
         void guardarPersona(Persona);
         void imprimirPersonas();
         int buscarPersona(string);
-        void clearCache();
+
 
 };
 
